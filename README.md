@@ -1,7 +1,3 @@
-Here's a template for your GitHub README file for the project:
-
----
-
 # Stacking Model for Classification
 
 This repository contains a machine learning project that demonstrates the implementation of a stacking classifier using `RandomForestClassifier`, `GradientBoostingClassifier`, and `LogisticRegression` as the meta-model for classification tasks. The project includes model training, evaluation, and optimization to minimize overfitting and achieve better generalization.
@@ -129,15 +125,8 @@ Run the function `evaluate_model` to get a comprehensive evaluation of the model
 - **F1-Score**: Harmonic mean of precision and recall.
 - **Confusion Matrix**: True positives, false positives, true negatives, and false negatives.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 ### Notes:
 
 - **Cross-Validation**: You may also want to include a section on cross-validation, as it's an important step in evaluating model performance in a more robust way. If you're using it in your project, you can explain how it's used.
 - **Model Tuning**: In case you're doing hyperparameter tuning, you can mention that this repository includes the process of finding the best parameters for your models.
-
-You can customize this template as needed and add specific instructions for how the dataset should be loaded or preprocessed before use.
